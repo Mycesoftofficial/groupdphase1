@@ -23,13 +23,22 @@ class AuthenticatedSessionController extends Controller
     /**
      * Handle an incoming authentication request.
      */
-    public function store(LoginRequest $request): RedirectResponse
+   public function store(Request $request): RedirectResponse
     {
-        $request->authenticate();
+        $request->validate([
+            'church_code' => 'required|string',
+            'password' => 'required|string',
+        ]);
 
-        $request->session()->regenerate();
+        if (Auth::attempt($request->only('church_code', 'password'))) {
+            $request->session()->regenerate();
 
-        return redirect()->intended(RouteServiceProvider::HOME);
+            return redirect()->intended(RouteServiceProvider::HOME);
+        }
+
+        return back()->withErrors([
+            'church_code' => 'The provided credentials do not match our records.',
+        ]);
     }
 
     /**
