@@ -15,10 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('assembly_name');
-            $table->string('assembly_id');
+            $table->string('assembly_id')->unique();
             $table->string('district');
             $table->string('area');
-            $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
