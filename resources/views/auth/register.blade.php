@@ -9,7 +9,7 @@
 <div class="login-content">
 <div class="login-userset">
 <div class="login-logo">
-<img src="assets/img/logo.png" alt="img">
+<img src="{{asset('auth_assets/assets/img/logo.png')}}" alt="img">
 </div>
 <div class="login-userheading">
 <h3>Create an Account</h3>
@@ -20,35 +20,35 @@
 		<label>Full Name</label>
 		<div class="form-addons">
 		<input type="text" name="name" placeholder="Enter your full name">
-		<img src="assets/img/icons/users1.svg" alt="img">
+		<img src="{{asset('auth_assets/assets/img/icons/users1.svg')}}" alt="img">
 		</div>
 	</div>
 	<div class="form-login">
 		<label>Assembly Name</label>
 		<div class="form-addons">
 		<input type="text" name="assembly_name" placeholder="Enter your full name">
-		<img src="assets/img/icons/users1.svg" alt="img">
+		<img src="{{asset('auth_assets/assets/img/icons/users1.svg')}}" alt="img">
 		</div>
 	</div>
 	<div class="form-login">
 		<label>Assembly ID</label>
 		<div class="form-addons">
 		<input type="text" name="assembly_id" placeholder="Enter your full name">
-		<img src="assets/img/icons/users1.svg" alt="img">
+		<img src="{{asset('auth_assets/assets/img/icons/users1.svg')}}" alt="img">
 		</div>
 	</div>
 	<div class="form-login">
 		<label>District</label>
 		<div class="form-addons">
 		<input type="text" name="district" placeholder="Enter your full name">
-		<img src="assets/img/icons/users1.svg" alt="img">
+		<img src="{{asset('auth_assets/assets/img/icons/users1.svg')}}" alt="img">
 		</div>
 	</div>
 	<div class="form-login">
 		<label>Area</label>
 		<div class="form-addons">
 		<input type="text" name="area" placeholder="Enter your full name">
-		<img src="assets/img/icons/users1.svg" alt="img">
+		<img src="{{asset('auth_assets/assets/img/icons/users1.svg')}}" alt="img">
 		</div>
 	</div>
 	<div class="form-login">
@@ -75,7 +75,7 @@
 </div>
 </div>
 <div class="login-img">
-<img src="assets/img/login.jpg" alt="img">
+<img src="{{asset('auth_assets/assets/img/login.jpg')}}" alt="img">
 </div>
 </div>
 </div>

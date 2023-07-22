@@ -7,12 +7,12 @@
     <meta name="robots" content="noindex, nofollow">
     <title>Phase 1</title>
     
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('auth_assets/assets/img/favicon.png')}}">
     
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('auth_assets/assets/css/bootstrap.min.css')}}">
     
-    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="{{asset('auth_assets/assets/plugins/fontawesome/css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('auth_assets/assets/plugins/fontawesome/css/all.min.css')}}">
     
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('auth_assets/assets/css/style.css')}}">
     </head>
