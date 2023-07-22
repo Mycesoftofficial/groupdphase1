@@ -18,14 +18,14 @@
             <ul id="accordion-menu">
                 <li>
                     <a href="/dashboard" class="dropdown-toggle no-arrow">
-                        <span class="micon bi bi-calendar4-week"></span
-                        ><span class="mtext">Dashboard</span>
+                        <i class="micon icon-copy fa fa-home" aria-hidden="true"></i>
+                        <span class="mtext">Dashboard</span>
                     </a>
                 </li>
                 <li class="dropdown">
                     <a href="javascript:;" class="dropdown-toggle">
-                        <span class="micon bi bi-textarea-resize"></span
-                        ><span class="mtext">Data Entry</span>
+                        <i class="micon icon-copy fa fa-database" aria-hidden="true"></i>
+                        <span class="mtext">Data Entry</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="form-basic.html">Form Basic</a></li>
@@ -38,8 +38,8 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:;" class="dropdown-toggle">
-                        <span class="micon bi bi-textarea-resize"></span
-                        ><span class="mtext">Print Report</span>
+                        <i class="micon icon-copy fa fa-print" aria-hidden="true"></i>
+                       <span class="mtext">Print Report</span>
                     </a>
                     <ul class="submenu">
                         <li><a href="form-basic.html">Form Basic</a></li>
