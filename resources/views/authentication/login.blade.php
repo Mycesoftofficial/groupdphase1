@@ -17,34 +17,6 @@
 								<h2 class="text-center text-primary">Login To DeskApp</h2>
 							</div>
 							<form>
-								<div class="select-role">
-									<div class="btn-group btn-group-toggle" data-toggle="buttons">
-										<label class="btn active">
-											<input type="radio" name="options" id="admin" />
-											<div class="icon">
-												<img
-													src="vendors/images/briefcase.svg"
-													class="svg"
-													alt=""
-												/>
-											</div>
-											<span>I'm</span>
-											Manager
-										</label>
-										<label class="btn">
-											<input type="radio" name="options" id="user" />
-											<div class="icon">
-												<img
-													src="vendors/images/person.svg"
-													class="svg"
-													alt=""
-												/>
-											</div>
-											<span>I'm</span>
-											Employee
-										</label>
-									</div>
-								</div>
 								<div class="input-group custom">
 									<input
 										type="text"
@@ -110,7 +82,7 @@
 										<div class="input-group mb-0">
 											<a
 												class="btn btn-outline-primary btn-lg btn-block"
-												href="register.html"
+												href="{{route('register')}}"
 												>Register To Create Account</a
 											>
 										</div>
