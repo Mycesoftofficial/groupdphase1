@@ -2,29 +2,14 @@
 <html>
 @include('layouts.auth_includes.links')
 	<body class="login-page">
-		<div class="login-header box-shadow">
-			<div
-				class="container-fluid d-flex justify-content-between align-items-center"
-			>
-				<div class="brand-logo">
-					<a href="login.html">
-						<img src="vendors/images/deskapp-logo.svg" alt="" />
-					</a>
-				</div>
-				<div class="login-menu">
-					<ul>
-						<li><a href="register.html">Register</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		@include('authentication.header')
 		<div
 			class="login-wrap d-flex align-items-center flex-wrap justify-content-center"
 		>
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-6 col-lg-7">
-						<img src="vendors/images/login-page-img.png" alt="" />
+						<img src="{{asset('images/logo.jpg')}}" alt="" />
 					</div>
 					<div class="col-md-6 col-lg-5">
 						<div class="login-box bg-white box-shadow border-radius-10">

@@ -14,8 +14,9 @@
 					</div>
 					<div class="col-md-6 col-lg-5">
 						<div class="register-box bg-white box-shadow border-radius-10">
+							@include('notification')
 							<div class="wizard-content">
-								<form class="tab-wizard2 wizard-circle wizard">
+								<form class="tab-wizard2 wizard-circle wizard"  method="POST" action="{{ route('register') }}">@csrf
 									@include('authentication.register_step.step1')
 									<!-- Step 3 -->
 									@include('authentication.register_step.step3')
