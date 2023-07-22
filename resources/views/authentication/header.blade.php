@@ -4,7 +4,7 @@
     >
         <div class="brand-logo">
             <a href="login.html">
-                <img src="{{asset('assets/vendors/images/deskapp-logo.svg')}}" alt="" />
+                <img src="{{asset('images/logo.jpg')}}" alt="" style="width: 30px"/>
             </a>
         </div>
         <div class="login-menu">

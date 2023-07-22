@@ -13,13 +13,13 @@
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="{{asset('assets/vendors/images/favicon-32x32.png')}}"
+        href="{{asset('images/logo.jpg')}}"
     />
     <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="{{asset('assets/vendors/images/favicon-16x16.png')}}"
+        href="{{asset('images/logo.jpg')}}"
     />
 
     <!-- Mobile Specific Metas -->
