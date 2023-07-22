@@ -27,7 +27,16 @@
 								@endif
 
 							<form class="tab-wizard2 wizard-circle wizard"  method="POST" action="{{ route('login') }}">@csrf
-								
+
+								<div class="form-group">
+									<label>
+										Church Name:
+									</label>
+								<div class="col-sm-12">
+									<input type="text" class="form-control" name="church_name"/>
+								</div>
+								</div>
+								 
 								<div class="form-group">
 									<label>Church Code:</label>
 									<div class="col-sm-12">
@@ -35,12 +44,6 @@
 									</div>
 									</div>
 
-									<div class="form-group">
-										<label>Password*</label>
-										   <div class="col-sm-12">
-											<input type="password" class="form-control" name="password"/>
-										   </div>
-									</div>
 
 								<div class="row pb-30">
 									<div class="col-6">
