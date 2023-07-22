@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-    @include('layouts.auth_includes.links')
+@include('layouts.auth_includes.links')
+
 	<body class="login-page">
-        @include('authentication.header')
-		<div class="register-page-wrap d-flex align-items-center flex-wrap justify-content-center">
+		@include('authentication.header')
+		<div
+			class="register-page-wrap d-flex align-items-center flex-wrap justify-content-center"
+		>
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-6 col-lg-7">
-						<img src="vendors/images/register-page-img.png" alt="" />
+						<img src="{{asset('assets/vendors/images/register-page-img.png')}}" alt="" />
 					</div>
 					<div class="col-md-6 col-lg-5">
 						<div class="register-box bg-white box-shadow border-radius-10">
@@ -27,6 +30,8 @@
 				</div>
 			</div>
 		</div>
-         @include('authentication.register_step.success_pop')
-		</div>
-     @include('layouts.auth_includes.scripts')
+		<!-- success Popup html Start -->
+        @include('authentication.register_step.success_pop')
+		@include('layouts.auth_includes.scripts')
+	</body>
+</html>

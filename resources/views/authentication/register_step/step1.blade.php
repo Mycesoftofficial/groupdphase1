@@ -1,7 +1,7 @@
 <h5>Basic Account Credentials</h5>
-									<section>
-										<div class="form-wrap max-width-600 mx-auto">
-											<div class="form-group row">
+	<section>
+		<div class="form-wrap max-width-600 mx-auto">
+			<div class="form-group row">
 												<label class="col-sm-4 col-form-label"
 													>Email Address*</label
 												>
