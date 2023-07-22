@@ -1,7 +1,7 @@
 <head>
     <!-- Basic Page Info -->
     <meta charset="utf-8" />
-    <title>Phase One</title>
+    <title>DeskApp - Bootstrap Admin Dashboard HTML Template</title>
 
     <!-- Site favicon -->
     <link
@@ -13,13 +13,13 @@
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="{{asset('images/logo.jpg')}}"
+        href="{{asset('assets/vendors/images/favicon-32x32.png')}}"
     />
     <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="{{asset('images/logo.jpg')}}"
+        href="{{asset('assets/vendors/images/favicon-16x16.png')}}"
     />
 
     <!-- Mobile Specific Metas -->
@@ -43,7 +43,12 @@
     <link
         rel="stylesheet"
         type="text/css"
-        href="{{asset('assets/src/plugins/jquery-steps/jquery.steps.css')}}"
+        href="{{asset('assets/src/plugins/datatables/css/dataTables.bootstrap4.min.css')}}"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="{{asset('assets/src/plugins/datatables/css/responsive.bootstrap4.min.css')}}"
     />
     <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/styles/style.css')}}" />
 
