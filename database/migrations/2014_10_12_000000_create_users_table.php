@@ -13,14 +13,6 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('church_name');
-            $table->string('church_code')->unique();
-            $table->string('location');
-            $table->string('gps_address');
-            $table->string('district');
-            $table->string('area');
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
             $table->rememberToken();
             $table->timestamps();
         });

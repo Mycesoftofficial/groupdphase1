@@ -6,25 +6,25 @@
 			Church Name
 		</label>
 	<div class="col-sm-12">
-		<input type="text" class="form-control" name="church_name"/>
+		<input type="text" class="form-control" name="CName"/>
 	</div>
 	</div>
 	<div class="form-group">
 	<label>Church Code*</label>
 	<div class="col-sm-12">
-		<input type="text" class="form-control" name="church_code"/>
+		<input type="text" class="form-control" name="CCode"/>
 	</div>
 	</div>
 		<div class="form-group">
 			<label>Location*</label>
 		       <div class="col-sm-12">
-				<input type="text" class="form-control" name="location"/>
+				<input type="text" class="form-control" name="Location"/>
 			   </div>
 		</div>
 		<div class="form-group">
 			<label>GPS Address</label>
 			<div class="col-sm-12">
-				<input type="text" class="form-control" name="gps_address"/>
+				<input type="text" class="form-control" name="GPSAddress"/>
 			</div>
 		</div>
 		</div>
