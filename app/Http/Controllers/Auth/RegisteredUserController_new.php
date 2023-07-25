@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Models\User;
+use App\Models\Assemblytbl;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
@@ -30,17 +30,20 @@ class RegisteredUserController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
+
         $request->validate([
-            'church_name' => ['required', 'string', 'max:255'],
-            'location' => ['required', 'string', 'max:255'],
-            'gps_address' => ['required', 'string', 'max:255'],
-            'district' => ['required', 'string', 'max:255'],
-            'area' => ['required', 'string', 'max:255'],
-            'church_code' => ['required', 'string',  'max:255', 'unique:'.User::class],
-            'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'CName' => ['required', 'string', 'max:255'],
+            'Location' => ['required', 'string', 'max:255'],
+            'GPSAddress' => ['required', 'string', 'max:255'],
+            'District' => ['required', 'string', 'max:255'],
+            'Area' => ['required', 'string', 'max:255'],
+            'CCode' => ['required', 'string', 'max:255', 'unique:assemblytbl'],
+            'Password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
-        $user = User::create([
+
+
+        $user = Assemblytbl::create([
             'church_name' => $request->church_name,
             'location' => $request->location,
             'gps_address' => $request->gps_address,
